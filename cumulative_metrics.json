@@ -1,8 +1,8 @@
 {
-    "goat_distance_to_sub-goal_mean": 6.3095,
-    "goat_distance_to_sub-goal_median": 7.5428,
-    "goat_sub-task_success_mean": 0.1797,
-    "goat_sub-task_success_median": 0.0,
-    "goat_sub-task_spl_mean": 0.0583,
-    "goat_sub-task_spl_median": 0.0
+    "distance_to_sub-goal_mean": 6.3095,
+    "distance_to_sub-goal_median": 7.5428,
+    "sub-task_success_mean": 0.1797,
+    "sub-task_success_median": 0.0,
+    "sub-task_spl_mean": 0.0583,
+    "sub-task_spl_median": 0.0
 }

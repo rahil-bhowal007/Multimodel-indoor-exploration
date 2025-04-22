@@ -5,15 +5,15 @@ import numpy as np
 import torch
 from torchvision.transforms import ToPILImage
 
-from mapping.semantic.constants import MapConstants as MC
-from mapping.semantic.instance_tracking_modules import InstanceMemory
+from constants import MapConstants as MC
+
 
 # Minimum size thresholds for valid crops
 MIN_PIXELS = 1000
 MIN_EDGE = 15
 
 
-class GoatMatching:
+class GoalMatcher:
     """
     Matches image- or text-specified goals against instance views
     in the current frame or memory, and localizes the best match.

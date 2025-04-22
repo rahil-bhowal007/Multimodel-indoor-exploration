@@ -52,7 +52,7 @@ AGENT:
     dilate_size: 3
     dilate_iter: 1
     exploration_type: 'default'
-    max_depth: 150.0 # hacky (for goat agent module)
+    max_depth: 150.0 # hacky (
 
     depth_filtering: True
     depth_filter_range_cm: 100        # 1m about the depth median (+/- 50cm)

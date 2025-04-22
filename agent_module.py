@@ -3,20 +3,15 @@ import time
 import torch
 import torch.nn as nn
 
-# Local modules:
-# - categorical_map.py (defines CategoricalMap2D)
-# - frontier_policy.py (defines FrontierExplorer)
-# - matching.py (defines GoalMatcher)
-# - memory.py (defines InstanceTracker)
 
 from categorical_map import CategoricalMap2D
 from frontier_policy import FrontierExplorer
 from matching import GoalMatcher
 from memory import InstanceTracker
 
-class GoatAgent(nn.Module):
+class Agent(nn.Module):
     def __init__(self, cfg):
-        super(GoatAgent, self).__init__()
+        super(Agent, self).__init__()
         # semantic map builder
         self.map_builder = CategoricalMap2D(
             frame_h=cfg.env.frame_h,
